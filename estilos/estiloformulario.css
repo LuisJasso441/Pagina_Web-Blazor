@@ -1,0 +1,256 @@
+body{
+    background-color: white;/*color de fondo*/
+    color: black;/*color de letra*/
+    width: 100%;
+    height: 100%;
+}
+
+#Barra a{ /*estilo a las etiquetas a*/
+    text-decoration: none;
+    color: white;
+}
+
+#Barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#Barra{ /* formato a todo el id: barra*/
+    background-color: #076E08;/*color de fondo*/
+    position: absolute;/* tomara todo el espacio*/
+    left: 0;/* para que tome el lugar del margen a la izq*/
+    top: 0;/* para que suba al margen superior*/
+    display: block;
+    width: 100%;
+}
+
+#Barra ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+#titulos{
+    float: left;
+}
+
+#Barra li{
+    float: right;
+}
+
+#Barra li a{
+    padding: 30px; /*espacio entre los elementos*/
+    display: inline-block;
+    text-decoration: none;
+}
+
+#links li a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/*identificador de contenido*/
+
+#Contenido{
+    max-width: 100%;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+#Contenido header{
+    height: 200px;/* alto*/
+    padding: 20px 20px;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+}
+
+#Contenido aside{
+    width: 20%;/*ancho*/
+    float: left;
+    padding: 4px;/*espaciado*/
+}
+
+
+
+/*Login*/
+* {
+    text-align: center;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+.form-register {
+    text-align: center;
+    width: 400px;
+    background: dimgray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+    box-shadow: 1px 1px 1px #000 ;
+
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: grey;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+/*settings*/
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+.form-register2 {
+    width: 400px;
+    background: lightgrey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+
+}
+
+.form-register2 h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-register2 h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.controls2 {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.form-register2 p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+}
+
+.form-register2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-register2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register2 .botons2 {
+    width: 25%;
+    background: green;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 15px 0;
+    font-size: 15px;
+
+}
+
+.form-register2 .botons3 {
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 15px 0;
+    font-size: 15px;
+
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #076E08;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: white;
+}
+
+.message2 button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: red;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: white;
+}
