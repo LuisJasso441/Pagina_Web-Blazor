@@ -8,7 +8,7 @@ body {
       height: 100vh;
   }
   .login-box {
-      margin-top: 75px;
+      margin-top: 5px;
       background: #1A2226;
       text-align: center;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -65,7 +65,7 @@ body {
     cursor: pointer;
     border-color:#0DB8DE!important;
     color:#0DB8DE;
-    margin-top: 30px;
+    margin-top: -10px;
   }
   .btn-outline-primary:hover{
     background-color: #071014!important;
@@ -85,3 +85,31 @@ body {
       padding-left: 0px;
       color: #A2A4A4;
   }
+  .button2 {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
+    }
+    .login-text {
+    padding-left: 0px;
+    color: #A2A4A4;
+    }
+
+    .btn-outline-secondary{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-color:#0DB8DE!important;
+        color:#0DB8DE;
+        margin-top: -10px;
+      }
+      .btn-outline-secondary:hover{
+        background-color: #071014!important;
+        background-image: -webkit-linear-gradient(160deg, #071014 0%, #0db8de 100%)!important;
+        background-image: -moz-linear-gradient(160deg, #071014 0%, #0db8de 100%)!important;
+        background-image: -o-linear-gradient(160deg, #071014 0%, #0db8de 100%)!important;
+        background-image: linear-gradient(160deg, #071014 0%, #0db8de 100%)!important;
+        
+        color: #ffffff!important;
+      }

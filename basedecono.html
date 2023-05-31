@@ -3,7 +3,7 @@
   <link rel="shortcut icon" href="Imagenes/Blazor.png">
 <head>
   <title>Inicio / ISI Network</title>
-  <link rel="stylesheet" type="text/css" href="estilos/estilohome.css">
+  <link rel="stylesheet" type="text/css" href="estilos/estilobase.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS v5.2.1 -->
@@ -39,31 +39,40 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
 
-<div id="Contenido">
-<header id="bienvenida">
-	<h1>BIENVENIDOS</h1>
-	<small>Bienvenidos a la pagina de ISI Network donde puedes encontrar los programas que manejamos <br>y solucionar tus dudas con estos mismos.</small>
-</header>
+    <div id="Titulo">
+      <h1>Base de conocimiento</h1>
+      <p>Aqui puedes ver nuestra base de conocimiento, donde la comunidad ha publicado
+        <br>sus errores y soluciones a otros y tu mismo problema<br></p>
+    </div>
 
-<div id="categorias">
-	<h2 id="titulo1">CATEGORIAS</h2>
-<section id="Principal">
-	<a href=""><img src="imagenes/ensalada.jpeg"></a>
-	<h2>SAP</h2>
-</section>
-<section id="Secundaria">
-	<a href=""><img src="imagenes/papas.jpg"></a>
-	<h2>SAP Business One</h2>
-</section>
-<section id="terceriario">
-	<a href=""><img src="imagenes/sandwich.jpg"></a>
-	<h2>Crystal Reports</h2>
-</section>
+<div style="text-align:center;">
+  <h2 id="Titulo2">Escoge la version que buscas</h2>
+  <select name="versiones">
+    <option value="">Mostrar todo</option>
+    <option value="SAP">SAP</option>
+    <option value="SAP_BO">SAP Business One</option>
+    <option value="CR">Crystal Reports</option>
+    <option value="Otro_SAP">Otro/desconocido</option>
+  </select>
+
+  <select name="versiones">
+    <option value="">Mostrar todo</option>
+    <option value="SAP">SAP</option>
+    <option value="SAP_BO">SAP Business One</option>
+    <option value="CR">Crystal Reports</option>
+    <option value="Otro_SAP">Otro/desconocido</option>
+  </select>
 </div>
-<footer id="footer">
-	<h2>Sobre nosotros</h2>
-	<p>ISI Network es una empresa que estra especializada en SAP [...]</p>
-</footer>
+
+<div style="text-align: center;" class="Fechas">
+  <br>Publicado despues de:
+  <input type="date">
+  <br>Publicado antes de:
+  <input type="date">
+</div>
+
+<div style="text-align: center;">
+  <input type="submit" class="button button1" value="Aplicar">
 </div>
 
 </body>
